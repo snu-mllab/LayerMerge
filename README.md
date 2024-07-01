@@ -61,7 +61,6 @@ We provide the instruction that can obtain tables and solutions above in [DP.md]
     ```
 2. Install [apex](https://github.com/NVIDIA/apex/tree/58acf96915eecd7e13adff61d2c389fba3efede2) library as follows (you should have GPU and CUDA backend available when you install this package):
     ```
-    git submodule update --init
     cd apex
     pip install -v --disable-pip-version-check --no-build-isolation --no-cache-dir ./
     cd ..
