@@ -1,0 +1,3 @@
+[submodule "HALP/apex"]
+	path = HALP/apex
+	url = https://github.com/nvidia/apex.git

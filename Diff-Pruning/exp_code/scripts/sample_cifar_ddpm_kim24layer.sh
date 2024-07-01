@@ -1,0 +1,15 @@
+python -B finetune.py \
+--config cifar10.yml \
+--exp "$3" \
+--sample \
+--timesteps 100 \
+--eta 0 \
+--ni \
+--doc sample \
+--skip_type quad  \
+--pruning_ratio 0.0 \
+--fid \
+--use_ema \
+--depth_method kim24layer \
+--depth_path $2 \
+--restore_from "$1" \

@@ -1,0 +1,30 @@
+name: icml23
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - accimage=0.2.0=py37h37b52e9_2
+  - ca-certificates=2022.9.24=ha878542_0
+  - certifi=2022.9.24=pyhd8ed1ab_0
+  - cudatoolkit=11.3.1=h2bc3f7f_2
+  - intel-ipp=2019.1.144=h711154d_3
+  - ld_impl_linux-64=2.35.1=h7274673_9
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libjpeg-turbo=2.1.0=h7f98852_0
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - ncurses=6.3=h7f8727e_2
+  - openssl=1.1.1k=h7f98852_0
+  - pip=21.2.2=py37h06a4308_0
+  - python=3.7.11=h12debd9_0
+  - python_abi=3.7=2_cp37m
+  - readline=8.1.2=h7f8727e_1
+  - setuptools=58.0.4=py37h06a4308_0
+  - sqlite=3.37.0=hc218d9a_0
+  - tk=8.6.11=h1ccaba5_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - zlib=1.2.11=h7f8727e_4

@@ -1,0 +1,9 @@
+.vscode
+__pycache__
+*.log
+run/finetune_simple_v2/
+run/*.npz
+run/sample_*
+run/time_*
+data
+*.png

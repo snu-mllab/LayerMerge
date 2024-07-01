@@ -1,0 +1,14 @@
+python -B finetune_simple.py \
+--config cifar10_long.yml \
+--timesteps 100 \
+--eta 0 \
+--ni \
+--exp run/finetune_simple_v2/cifar10_long_ours/T=$1_rat=$2.pth \
+--doc post_training \
+--skip_type quad  \
+--pruning_ratio $2 \
+--use_ema \
+--use_pretrained \
+--thr $1 \
+--pruner ours \
+--lr 0.0004

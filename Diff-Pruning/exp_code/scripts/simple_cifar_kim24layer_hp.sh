@@ -1,0 +1,15 @@
+python -B finetune_simple.py \
+--config cifar10.yml \
+--timesteps 100 \
+--eta 0 \
+--ni \
+--exp run/finetune_simple_v2/lr$3_beta$4_$2 \
+--doc post_training \
+--skip_type quad  \
+--use_ema \
+--use_pretrained \
+--depth_method kim24layer \
+--depth_path $2 \
+--thr $1 \
+--lr $3 \
+--beta1 $4 \

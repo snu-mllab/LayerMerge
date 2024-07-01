@@ -1,0 +1,11 @@
+__pycache__
+exp_result*
+pretrained
+mb_v2_w1.0*
+mb_v2_w1.4*
+vgg19
+kd_exps
+slurm
+run_*
+*.log
+*.zip
