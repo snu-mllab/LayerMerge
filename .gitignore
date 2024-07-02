@@ -27,3 +27,4 @@ solve*.sh
 *.egg-info
 ddpm_chk.txt
 ddpm_mgd.txt
+.ipynb_checkpoints/
