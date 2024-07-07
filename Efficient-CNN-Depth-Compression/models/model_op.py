@@ -279,7 +279,7 @@ def fuse_bn(module):
     remove_bns = []
     for name, lyr in module.named_modules():
         # Fuse batchnorm layers with previous conv layers
-        if "md.bn" in name:
+        if isinstance(lyr, nn.BatchNorm2d):
             assert isinstance(prev_lyr, nn.Conv2d) and isinstance(lyr, nn.BatchNorm2d)
             cw, bw = unroll_conv_params(
                 prev_lyr, prev_lyr.in_channels == prev_lyr.groups
