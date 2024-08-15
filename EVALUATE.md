@@ -118,7 +118,7 @@ Ensure that checkpoints are placed in the correct paths as described in [README.
         ```bash
         python finetune.py --sample --fid --config cifar10.yml --timesteps 100 --eta 0 --ni \
         --exp run/sample_pretrained \
-        --doc sample --skip_type quad --use_ema --use_pretrained \
+        --doc sample --skip_type quad --use_ema --use_pretrained
         ```
     - For compressed network ($T_0$ time budget), run
         ```bash
@@ -146,7 +146,7 @@ Ensure that checkpoints are placed in the correct paths as described in [README.
         ```bash
         python finetune.py --measure --fid --config cifar10.yml --timesteps 100 --eta 0 --ni \
         --exp run/time_pretrained \
-        --doc sample --skip_type quad --use_ema --use_pretrained \
+        --doc sample --skip_type quad --use_ema --use_pretrained
         ```
     - For compressed network ($T_0$ time budget), run
         ```bash
