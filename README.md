@@ -1,7 +1,7 @@
 # LayerMerge
 Official PyTorch implementation of "LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging", published at **ICML'24**
 
-[**Paper**](https://arxiv.org/abs/2406.12837) | [**Project page**](https://jusjinuk.me/blog/layermerge/) | [**Poster**](https://drive.google.com/file/d/10BK1xcRbs-hSHz8yX7ls5ccl9Qgf9B_1/view?usp=sharing)
+[**Paper**](https://arxiv.org/abs/2406.12837) | [**Project page**](https://jinukkim.me/blog/layermerge/) | [**Poster**](https://drive.google.com/file/d/10BK1xcRbs-hSHz8yX7ls5ccl9Qgf9B_1/view?usp=sharing)
 
 ![title](asset/title.png)
 
